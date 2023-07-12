@@ -1,0 +1,67 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+004-005 @WRITE_PROGRAM_MEMORY8.P2
+015     CCP_1
+015     CCP_1_LOW
+016     CCP_1_HIGH
+01B     CCP_2_LOW
+01B     CCP_2
+01C     CCP_2_HIGH
+020-021 @sprintf_string
+022     main.Caracter
+023     @PSTRINGC7_9600_62_63.@SCRATCH1
+024     @PSTRINGC7_9600_62_63.@SCRATCH2
+025     @PSTRINGC7_9600_62_63.@SCRATCH3
+026     @PSTRINGC7_9600_62_63.@SCRATCH4
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+107.6   C1OUT
+108.6   C2OUT
+10D-10E @WRITE_PROGRAM_MEMORY8.P1
+10D-10E @READ_PROGRAM_MEMORY8.P2
+
+ROM Allocation:
+000004  @const649.call
+00000C  @const654.call
+000015  @PSTRINGC7_9600_62_63
+00006D  main
+00006D  @cinit1
+00008E  @cinit2
+
+Project Directory:
+    E:\Martin Hdez\Desktop\CCS 16F\887\Práctica 19\
+
+Project Files:
+    Bluetooth HM-10.c                                       [24-feb.-22 15:40  CRC=91DC4C0F]
+    ..\..\..\..\..\Program Files\PICC\Devices\16F887.h      [15-ene.-18 15:53  CRC=9C71CB72]
+
+Source signature=CABFE2F3
+Program memory checksum=0000
+Program memory CRC=0000
+Hex file CRC=C87D
+
+Units:
+    Bluetooth HM-10 (main)
+
+Compiler Settings:
+    Processor:      PIC16F887
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Compile Mode:       CCS5
+
+Output Files:
+    XREF file:   Bluetooth HM-10.xsym
+    Errors:      Bluetooth HM-10.err
+    Ext Symbols: Bluetooth HM-10.esym
+    INHX8:       Bluetooth HM-10.hex
+    Symbols:     Bluetooth HM-10.sym
+    List:        Bluetooth HM-10.lst
+    Debug/COFF:  Bluetooth HM-10.cof
+    Project:     Bluetooth HM-10.ccspjt
+    Call Tree:   Bluetooth HM-10.tre
+    Statistics:  Bluetooth HM-10.STA
