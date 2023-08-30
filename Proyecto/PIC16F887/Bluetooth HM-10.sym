@@ -1,10 +1,10 @@
-004-005 @READ_PROGRAM_MEMORY8.P1
-004-005 @WRITE_PROGRAM_MEMORY8.P2
+004-005 @WRITE_PROGRAM_MEMORY8.P1
+004-005 @READ_PROGRAM_MEMORY8.P2
 015     CCP_1
 015     CCP_1_LOW
 016     CCP_1_HIGH
-01B     CCP_2_LOW
 01B     CCP_2
+01B     CCP_2_LOW
 01C     CCP_2_HIGH
 020-021 @sprintf_string
 022     main.Caracter
@@ -23,27 +23,26 @@
 10D-10E @READ_PROGRAM_MEMORY8.P2
 
 ROM Allocation:
-000004  @const649.call
-00000C  @const654.call
-000015  @PSTRINGC7_9600_62_63
-00006D  main
-00006D  @cinit1
-00008E  @cinit2
+000004  @const712.call
+00000B  @const717.call
+000013  @PSTRINGC7_9600_62_63
+00006B  main
+00006B  @cinit1
+00008C  @cinit2
 
 Project Directory:
-    E:\Martin Hdez\Desktop\CCS 16F\887\Práctica 19\
+    C:\Users\victo\OneDrive\Documentos\X-TRAINER-hands-on\CCS\PIC16F\19-HM-10-CCS-PIC16F887-877A\Proyecto\PIC16F887\
 
 Project Files:
-    Bluetooth HM-10.c                                       [24-feb.-22 15:40  CRC=91DC4C0F]
-    ..\..\..\..\..\Program Files\PICC\Devices\16F887.h      [15-ene.-18 15:53  CRC=9C71CB72]
+    Bluetooth HM-10.c                                       [30-ago.-23 11:44  CRC=DC5AE657]
+    ..\..\..\..\..\..\..\..\..\..\Program Files (x86)\PICCDEMO\Devices\16F887.h [02-may.-23 08:27  CRC=A824942D]
 
-Source signature=CABFE2F3
+Source signature=2CA40EB1
 Program memory checksum=0000
-Program memory CRC=0000
-Hex file CRC=C87D
+Hex file CRC=AE1C
 
 Units:
-    Bluetooth HM-10 (main)
+    C:\Users\victo\OneDrive\Documentos\X-TRAINER-hands-on\CCS\PIC16F\19-HM-10-CCS-PIC16F887-877A\Proyecto\PIC16F887\Bluetooth HM-10 (main)
 
 Compiler Settings:
     Processor:      PIC16F887
@@ -52,7 +51,10 @@ Compiler Settings:
     Opt Level:      9
     Short,Int,Long: UNSIGNED: 1,8,16
     Float,Double:   32,32
-    Compile Mode:       CCS5
+    Compile Mode:   CCS5
+
+Compiler operating in Evaluation Mode
+To obtain a fully enabled compiler visit www.ccsinfo.com/products
 
 Output Files:
     XREF file:   Bluetooth HM-10.xsym

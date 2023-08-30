@@ -1,7 +1,7 @@
 [PROJECT]
 Target=Bluetooth HM-10.hex
 Processor_Text=PIC16F887
-CCSVersion=5.076
+CCSVersion=5.115d
 Compiler=PCM
 [Target Data]
 FileList=Bluetooth HM-10.c
@@ -9,16 +9,28 @@ FileList=Bluetooth HM-10.c
 Type=4
 [mru-list]
 1=Bluetooth HM-10.c
-[Units]
-Count=1
-1=Bluetooth HM-10 (main)
 
 [defines]
-buildcount=1
+buildcount=2
 
 [ProjectLog]
-Days=1
+Days=2
 D1=24-02-2022
 D1_L=2
 D1_L1=[56519]Started Editing.
 D1_L2=[56533]Project Closed.
+D2=30-08-2023
+D2_L=2
+D2_L1=[43098]Project Opened.
+D2_L2=[43138]Project Closed.
+
+[fileformats]
+forcecoff=0
+
+[Opened Files]
+1=Bluetooth HM-10.c
+t1=1
+Count=1
+[Units]
+Count=1
+1=Bluetooth HM-10 (main)

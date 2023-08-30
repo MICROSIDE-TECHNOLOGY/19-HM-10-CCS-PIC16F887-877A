@@ -24,27 +24,26 @@
 10D-10E @WRITE_PROGRAM_MEMORY8.P2
 
 ROM Allocation:
-000004  @const642.call
-00000C  @const647.call
-000015  @PSTRINGC7_9600_62_63
-00006D  main
-00006D  @cinit1
-000081  @cinit2
+000004  @const705.call
+00000B  @const710.call
+000013  @PSTRINGC7_9600_62_63
+00006B  main
+00006B  @cinit1
+00007F  @cinit2
 
 Project Directory:
-    E:\Martin Hdez\Desktop\CCS 16F\877A\Práctica 19\
+    C:\Users\victo\OneDrive\Documentos\X-TRAINER-hands-on\CCS\PIC16F\19-HM-10-CCS-PIC16F887-877A\Proyecto\PIC16F877A\
 
 Project Files:
-    Bluetooth HM-10.c                                       [24-feb.-22 15:42  CRC=1885F828]
-    ..\..\..\..\..\Program Files\PICC\Devices\16F877A.h     [15-ene.-18 15:53  CRC=63418C39]
+    Bluetooth HM-10.c                                       [30-ago.-23 11:43  CRC=24966BBF]
+    ..\..\..\..\..\..\..\..\..\..\Program Files (x86)\PICCDEMO\Devices\16F877A.h [02-may.-23 08:27  CRC=32478F9C]
 
-Source signature=DF09109A
+Source signature=89258AF7
 Program memory checksum=0000
-Program memory CRC=0000
-Hex file CRC=3EBD
+Hex file CRC=8920
 
 Units:
-    Bluetooth HM-10 (main)
+    C:\Users\victo\OneDrive\Documentos\X-TRAINER-hands-on\CCS\PIC16F\19-HM-10-CCS-PIC16F887-877A\Proyecto\PIC16F877A\Bluetooth HM-10 (main)
 
 Compiler Settings:
     Processor:      PIC16F877A
@@ -53,7 +52,10 @@ Compiler Settings:
     Opt Level:      9
     Short,Int,Long: UNSIGNED: 1,8,16
     Float,Double:   32,32
-    Compile Mode:       CCS5
+    Compile Mode:   CCS5
+
+Compiler operating in Evaluation Mode
+To obtain a fully enabled compiler visit www.ccsinfo.com/products
 
 Output Files:
     XREF file:   Bluetooth HM-10.xsym

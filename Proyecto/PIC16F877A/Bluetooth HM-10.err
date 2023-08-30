@@ -1,4 +1,5 @@
-Compiling E:\Martin Hdez\Desktop\CCS 16F\877A\Práctica 19\Bluetooth HM-10 on 24-feb.-22 at 15:42
+Compiling C:\Users\victo\OneDrive\Documentos\X-TRAINER-hands-on\CCS\PIC16F\19-HM-10-CCS-PIC16F887-877A\Proyecto\PIC16F877A\Bluetooth HM-10 on 30-ago.-23 at 11:57
+>>> Warning 203 "C:\Users\victo\OneDrive\Documentos\X-TRAINER-hands-on\CCS\PIC16F\19-HM-10-CCS-PIC16F887-877A\Proyecto\PIC16F877A\Bluetooth HM-10.c" Line 33(1,1): Condition always TRUE
       Memory usage:   ROM=2%      RAM=2% - 3%
-      0 Errors,  0 Warnings.
+      0 Errors,  1 Warnings.
 Build Successful.
